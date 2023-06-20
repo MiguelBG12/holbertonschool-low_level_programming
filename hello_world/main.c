@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-printf("$CFILE");
+printf("export CFILE=0-main.c");
 return (0);
 }
