@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-printf("export CFILE=0-main.c");
+printf("Holberton School");
 return (0);
 }
