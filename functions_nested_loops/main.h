@@ -1,6 +1,10 @@
-#include "main.h"
-
+#ifndef _main
+#define _main
 /**
- *  * main - check the code
- *   *
- *    * Return: Always (0)
+ * main - check the code
+ *
+ * Return: 0 (Success)
+ */
+
+#include "main.h"
+#endif
