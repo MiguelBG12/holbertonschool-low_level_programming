@@ -1,21 +1,18 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "main.h"
 
 /**
- *  main - Entry point
- *  Return: Always 0 (Success)
+ *  print_alphabet - print alphabet
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	char letter;
+char letter;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-	putchar(letter);
-putchar ('\n');
+for (letter = 'a'; letter <= 'z'; letter++)
+_putchar (letter);
+_putchar ('\n');
 
-	void print_alphabet(void);
-	return (0);
 }
