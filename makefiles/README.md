@@ -1,1 +1,1 @@
-This project is about makefile
+This project is about Makefiles
