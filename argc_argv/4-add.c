@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 		res += _atoi(argv[i]);
 	}
 	print_number(res);
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
 
@@ -83,17 +83,17 @@ void print_number(int n)
 
 	if (n == 0)
 	{
-		_putchar('0');
+		putchar('0');
 		return;
 	}
 	if (n < 0)
 	{
-		_putchar('-');
+		putchar('-');
 		num = n * -1;
 	}
 	if (n > 0)
 		num = n;
-		print_int_recursion(num);
+	print_int_recursion(num);
 }
 
 /**
@@ -116,7 +116,7 @@ void print_int_recursion(unsigned int num)
 	else
 	{
 		print_int_recursion(number / base);
-		_putchar('0' + number % base);
+		putchar('0' + number % base);
 	}
 }
 
@@ -128,10 +128,11 @@ void print_int_recursion(unsigned int num)
  */
 void print_error(void)
 {
-	_putchar('E');
-	_putchar('r');
-	_putchar('r');
-	_putchar('o');
-	_putchar('r');
-	_putchar('\n');
+	putchar('E');
+	putchar('r');
+	putchar('r');
+	putchar('o');
+	putchar('r');
+	putchar('\n');
 }
+
