@@ -18,16 +18,16 @@ int main(int argc, char *argv[])
 	if (argc == 3)
 	{
 		print_number(_atoi(argv[1]) *  _atoi(argv[2]));
-		_putchar('\n');
+		putchar('\n');
 	}
 	else
 	{
-		_putchar('E');
-		_putchar('r');
-		_putchar('r');
-		_putchar('o');
-		_putchar('r');
-		_putchar('\n');
+		putchar('E');
+		putchar('r');
+		putchar('r');
+		putchar('o');
+		putchar('r');
+		putchar('\n');
 	}
 	return (0);
 }
@@ -79,12 +79,12 @@ void print_number(int n)
 
 	if (n == 0)
 	{
-		_putchar('0');
+		putchar('0');
 		return;
 	}
 	if (n < 0)
 	{
-		_putchar('-');
+		putchar('-');
 		num = n * -1;
 	}
 	if (n > 0)
@@ -112,6 +112,6 @@ void print_int_recursion(unsigned int num)
 	else
 	{
 		print_int_recursion(number / base);
-		_putchar('0' + number % base);
+		putchar('0' + number % base);
 	}
 }
