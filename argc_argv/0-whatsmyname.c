@@ -1,12 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - program that prints its name
+ * main - program to print its name
+ * @argc: Number of arguments passed to the program
+ * @argv: Arry of strings. Each is one of the arguments that was passed
  * If you rename the program, it will print the new name
- * Return: Always 0.
+ * Return: Zero
  */
-int main(void)
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("./0-whatsmyname.0\n");
-		return (0);
+	int i = 0;
+
+	while (argv[0][i] != '\0')
+	{
+		_putchar(argv[0][i]);
+		i++;
+	}
+	_putchar('\n');
+	return (0);
 }
