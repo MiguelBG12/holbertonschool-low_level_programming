@@ -16,7 +16,7 @@ int main(int argc, char *argv[] __attribute__((unused)))
 
 	num = argc - 1;
 	print_number(num);
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
 
