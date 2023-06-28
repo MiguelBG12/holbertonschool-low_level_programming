@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	printf("./Mynewnameis\n");
+	printf("./0-whatsmyname.c\n");
 		return (0);
 }
